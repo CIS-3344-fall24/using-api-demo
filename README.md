@@ -18,7 +18,7 @@ Now install the node modules with
 
 ### Before you run the project
 
-    Enter your NY Times API key in Nytimes.jsx
+Enter your NY Times API key in Nytimes.jsx
 
 ## DO NOT PUBLISH YOUR CODE WITH API KEYS IN IT
 
