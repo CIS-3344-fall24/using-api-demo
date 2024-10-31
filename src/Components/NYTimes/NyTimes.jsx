@@ -27,6 +27,23 @@ const NyTimes = () => {
       });
   };
 
+  //   The above code is the same as the below code
+  // const fetchArticles = async (event) => {
+  //   if (event) {
+  //     event.preventDefault();
+  //   }
+  //   try {
+  //     const response = await fetch(
+  //       `https://api.nytimes.com/svc/archive/v1/2024/${month}.json?api-key=${apiKey}`
+  //     );
+  //     if (!response.ok) throw new Error(`Error fetching data`);
+  //     const data = await response.json();
+  //     setNews(data.response.docs);
+  //   } catch (error) {
+  //     console.error(error.message);
+  //   }
+  // };
+
   return (
     <div>
       <h1>NY Times Articles</h1>
